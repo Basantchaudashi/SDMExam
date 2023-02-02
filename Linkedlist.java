@@ -28,7 +28,7 @@ public static Linkedlist insert (Linkedlist list, int data)
     return list;
 
 }
-public static void display(Linkedlist list)
+public static void display1(Linkedlist list)
 {
     Node currNode=list.head;
     System.out.print("Linkedlist: ");
@@ -45,7 +45,7 @@ public static void main(String args[])
     list=insert(list,2);
     list=insert(list,3);
     list=insert(list,4);
-     display(list);
+     display1(list);
 
 }
 }
